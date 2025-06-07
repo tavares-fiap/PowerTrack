@@ -1,3 +1,9 @@
+## 👥 Integrantes
+
+* Pedro Henrique Pedrosa Tavares - RM 97877
+* Pedro Oliveira Valotto - RM 551445
+* Guilherme Rocha Bianchini - RM 97974
+
 # Power Track (Aplicativo de Registro de Faltas de Energia)
 
 Este aplicativo mobile foi desenvolvido com **React Native** e **TypeScript** para permitir o registro e visualização de informações sobre episódios de falta de energia causados por desastres naturais.
@@ -86,9 +92,3 @@ PowerOutageApp/
 * Os dados são armazenados apenas em memória, sendo perdidos ao fechar o aplicativo.
 * Não há suporte para upload de imagens ou arquivos.
 * Não há integração com serviços externos ou APIs.
-
-## 👥 Integrantes
-
-* Pedro Henrique Pedrosa Tavares - RM 97877
-* Pedro Oliveira Valotto - RM 551445
-* Guilherme Rocha Bianchini - RM 97974
