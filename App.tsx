@@ -1,20 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState } from 'react';
+import { Location, Duration, Damage } from './types';
+import AppNavigator from './navigation/AppNavigator';
 
-export default function App() {
+function App(): React.JSX.Element {
+  const [locations, setLocations] = useState<Location[]>([]);
+  const [durations, setDurations] = useState<Duration[]>([]);
+  const [damages, setDamages] = useState<Damage[]>([]);
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <AppNavigator
+      locations={locations}
+      setLocations={setLocations}
+      durations={durations}
+      setDurations={setDurations}
+      damages={damages}
+      setDamages={setDamages}
+    />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
+
