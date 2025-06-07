@@ -1,4 +1,4 @@
-# Aplicativo de Registro de Faltas de Energia
+# Power Track (Aplicativo de Registro de Faltas de Energia)
 
 Este aplicativo mobile foi desenvolvido com **React Native** e **TypeScript** para permitir o registro e visualização de informações sobre episódios de falta de energia causados por desastres naturais.
 
