@@ -74,9 +74,9 @@ PowerOutageApp/
 
 3. Inicie o aplicativo:
 
-   ```bash
-   npx expo start
    ```
+   npx expo start
+   ````
 4. Siga as instruções no terminal para abrir o aplicativo em um emulador ou dispositivo físico.
 
 ## Uso
