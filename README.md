@@ -70,7 +70,7 @@ PowerOutageApp/
 2. Instale as dependências:  
    ```
    npm install
-````
+   ````
 
 3. Inicie o aplicativo:
 
